@@ -40,7 +40,7 @@ npm install
 npm run server
 ```
 
-4 - Para realizar a validação do boleto informe a linha de código na url do navegardor ou utilizando um tester de APIs como o <a href="https://insomnia.rest/" target="_blank">insomnia/</a>
+4 - Para realizar a validação do boleto informe a linha de código na url do navegardor ou utilizando um tester de APIs como o <a href="https://insomnia.rest/" target="_blank">insomnia</a>
 
 conforme abaixo:
 
