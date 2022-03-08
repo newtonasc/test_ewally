@@ -66,15 +66,15 @@ Erros e validações negativas são tratados como exceptions como no exemplo aba
 ```
 Error: Expired due date!
     at new BoletoController (/home/developer/Projects/test_ewally/src/Controllers/BoletoController.ts:8:47)
-    ...
 ```
+
 
 5 - Testes unitários
 
 
-´´´
+```
 npm run test
-´´´
+```
 
 6 - Cobertura de código:
 
@@ -87,10 +87,3 @@ O arquivo html da cobertura fica localizado no projeto, no seguinte caminho:
 ```
 test_ewally\coverage\lcov-report\index.html
 ```
-
-
-
-
-
-
-
