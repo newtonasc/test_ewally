@@ -24,7 +24,7 @@ Aplicadas técnicas de TDD, DDD e Clean Code.
 
 
 ```
-git@github.com:newtonasc/test_ewally.git
+git clone git@github.com:newtonasc/test_ewally.git
 ```
 
 2. Resolver as dependencias do projeto
