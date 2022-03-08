@@ -1,4 +1,12 @@
-# test_ewally
+# Teste Técnico - Ewally
+
+## Descrição do projeto
+
+Projeto desenvolvido para consultar linhas digitáveis de boleto de título bancário e pagamento de concessionárias, verificando se a mesma é válida ou não. 
+Sendo válida e possuindo valor e/ou data de vencimento esses dados são retornados.
+
+Aplicadas técnicas de TDD, DDD e Clean Code.
+
 
 ## Ambiente
 
