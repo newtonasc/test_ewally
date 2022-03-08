@@ -125,7 +125,7 @@ npm run coverage
 6.2 **Docker**
 
 ```
-docker exec -it test_ewally npm run test
+docker exec -it test_ewally npm run coverage
 ```
 
 O arquivo html da cobertura fica localizado no projeto, no seguinte caminho:
