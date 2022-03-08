@@ -11,7 +11,7 @@
     "build": "tsc",
     "test": "tsc && jest dist/",
     "coverage": "tsc && jest --coverage dist/",
-    "server": "nodemon server.ts"
+    "server": "ts-node server.ts"
   },
   "keywords": [],
   "author": "",

@@ -5,6 +5,8 @@
 Projeto desenvolvido para consultar linhas digitáveis de boleto de título bancário e pagamento de concessionárias, verificando se a mesma é válida ou não. 
 Sendo válida e possuindo valor e/ou data de vencimento esses dados são retornados.
 
+Projeto disponibilizado para execução em container Docker ou local.
+
 Aplicadas técnicas de TDD, DDD e Clean Code.
 
 
@@ -33,14 +35,41 @@ npm install
 ```
 
 
-3 - Inicializar o projeto
+3. Inicializar o projeto
+
+*O projeto poderá ser inicializado no local ou em um container Docker.*
+
+
+3.1 **Local**
 
 
 ```
 npm run server
 ```
 
-4 - Para realizar a validação do boleto informe a linha de código na url do navegardor ou utilizando um tester de APIs como o <a href="https://insomnia.rest/" target="_blank">insomnia</a>
+3.2 **Docker**
+
+
+*Para subir o container*
+
+```
+docker-compose up -d
+```
+
+*Para acessar o container*
+
+```
+  docker exec -it test_ewally bash
+```
+
+*Para finalizar o container*
+
+```
+docker-compose down
+```
+
+
+4. Para realizar a validação do boleto informe a linha de código na url do navegardor ou utilizando um tester de APIs como o <a href="https://insomnia.rest/" target="_blank">insomnia</a>
 
 conforme abaixo:
 
@@ -69,17 +98,34 @@ Error: Expired due date!
 ```
 
 
-5 - Testes unitários
+5. Testes unitários
 
+
+5.1 **Local**
 
 ```
 npm run test
 ```
 
-6 - Cobertura de código:
+5.2 **Docker**
+
+```
+docker exec -it test_ewally npm run test
+```
+
+
+6. Cobertura de código:
+
+6.1 **Local**
 
 ```
 npm run coverage
+```
+
+6.2 **Docker**
+
+```
+docker exec -it test_ewally npm run test
 ```
 
 O arquivo html da cobertura fica localizado no projeto, no seguinte caminho:
